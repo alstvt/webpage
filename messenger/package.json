@@ -1,0 +1,17 @@
+{
+  "name": "vault-messenger",
+  "version": "1.0.0",
+  "description": "Минималистичный мессенджер со сквозным шифрованием и анонимными ID",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}
